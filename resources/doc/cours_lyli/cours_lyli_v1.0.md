@@ -114,7 +114,7 @@ age = "Hello"; // NOPE ! On ne peut mettre que des nombre entiers dans age
 | `boolean` | Valeur booléen (Vrai / Faux) | `boolean aPerdu = true;` |
 | `int`     | Nombre entier                | `int score = 345;`       |
 | `float`   | Nombre à virgule             | `float taille = 1.80f;`  |
-| `String`  | Chaine de caractère / texte  | `String name = "Bob";`   |
+| `String`  | Chaine de caractères / texte  | `String name = "Bob";`   |
 
 
 ---
@@ -205,7 +205,7 @@ System.out.println("Fin du programme")
 # Plus de conditions !
 ```java
 int score = 10;
-int bonus = 3;
+int boost = 3;
 
 if (boost == 1) {       // D'abord cette branche est évaluée, boost == 1 ?
   score = score + 15;
@@ -284,7 +284,7 @@ if (age >= 18 || aAutorisationParents == true) {
 ---
 # TP
 <!-- _class: lead -->
-* Initialisez 2 variables entières et déterminez si le résultat du produit est positif
+* Initialisez 2 variables entières et déterminez si le résultat du produit est positif **sans faire le calcul**
   * 2 x 2 donne un résultat positif
   * -3 x 2 donne un résultat négatif
   * -3 x -3 donne un résultat positif
